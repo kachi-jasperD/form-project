@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+}
+.content {
+  margin: auto;
+  padding: 35px 80px;
+  width: 500px;
+  box-sizing: content-box;
+  /* background-color: #24323d; */
+  background: #24323d;
+}
+div.header {
+  display: flex;
+  justify-content: space-between;
+}
+div.Login {
+  background-color: #435259;
+  padding: 20px;
+  width: 50%;
+}
+div.sign-up {
+  background-color: #1ab188;
+  padding: 20px;
+  width: 50%;
+}
+a {
+  text-decoration: none;
+}
+a.sign-up {
+  color: #d8fff6;
+}
+a.Login {
+  color: rgba(135, 152, 159, 255);
+}
+ul > li {
+  text-align: center;
+  font-weight: bold;
+  list-style-type: none;
+}
+h1 {
+  margin: 70px 0px;
+  color: #cbd5cb;
+  text-align: center;
+  font-family: "Trirong", serif;
+  font-weight: bold;
+}
+div.fullname {
+  width: 750px;
+  overflow: auto;
+  /* box-sizing: content-box; */
+}
+input#row-1 {
+  float: left;
+  width: 30.5%;
+}
+input#row-2 {
+  width: 30.5%;
+}
+input {
+  background-color: #24323d;
+  color: #57656e;
+  border: 2px solid #57656e;
+  padding: 20px;
+  margin: 20px;
+}
+.login-credentials {
+  width: 100%;
+}
+button {
+  background-color: #16af85;
+  color: #d8fff6;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  /* font-family: "Titillium Web", sans-serif;
+  font-family: "Trirong", serif; */
+  font-size: 35px;
+  /* font-weight: bolder; */
+  text-transform: uppercase;
+  padding: 20px;
+  width: 100%;
+  margin: 20px;
+  cursor: pointer;
+}
